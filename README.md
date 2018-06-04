@@ -1,13 +1,12 @@
 #
 Learning to Detect Violent Videos using Convolutional Long Short-Term Memory
 
-*Experimental release*
 
-The source code associated with the paper [Learning to Detect Violent Videos using Convolutional Long Short-Term Memory](https://arxiv.org/abs/1709.06531), published in AVSS-2017. 
+The source code associated with the paper [Learning to Detect Violent Videos using Convolutional Long Short-Term Memory](https://arxiv.org/abs/1709.06531), published in AVSS-2017. (*Experimental release*) 
 
 #### Prerequisites
 * Python 3.5
-* Pytorch 0.3.1
+* Pytorch 0.3.0
 #### Running
 
 ```
