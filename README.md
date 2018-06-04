@@ -9,6 +9,8 @@ The source code associated with the paper [Learning to Detect Violent Videos usi
 * Python 3.5
 * Pytorch 0.3.1
 #### Running
+
+```
 python main-run-vr.py --numEpochs 100 \
 
 --lr 1e-4 \
@@ -55,6 +57,7 @@ fightsDirTrain \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	. \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	. \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	--> frame00xx.jpg
+```
 
 To cite our paper/code:
 
