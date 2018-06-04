@@ -12,7 +12,6 @@ The source code associated with the paper [Learning to Detect Violent Videos usi
 
 ```
 python main-run-vr.py --numEpochs 100 \
-
 --lr 1e-4 \
 --stepSize 25 \
 --decayRate 0.5 \
@@ -29,23 +28,23 @@ python main-run-vr.py --numEpochs 100 \
 --noFightsDirTest noFightSamplesTestDir
 ```
 
-The images should be arranged in the following way: \
+The images should be arranged in the following way:
 ```
 fightsDirTrain
---> sample 1
---> frame0001.jpg
---> frame0002.jpg
-.
-.
-.
---> frame00xx.jpg \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	--> sample 1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	--> frame0001.jpg
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	--> frame0002.jpg
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	.
+--> frame00xx.jpg
 --> sample 2
 --> frame0001.jpg
 --> frame0002.jpg
 .
 .
 .
---> frame00xx.jpg \
+--> frame00xx.jpg
 .
 .
 .
@@ -55,7 +54,7 @@ fightsDirTrain
 .
 .
 .
---> frame00xx.jpg \
+--> frame00xx.jpg
 
 ```
 
