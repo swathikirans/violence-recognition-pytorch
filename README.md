@@ -35,6 +35,13 @@ The images should be arranged in the following way:
 To cite our paper/code:
 
 ```
-Sudhakaran, Swathikiran, and Oswald Lanz. "Learning to detect violent videos using convolutional long short-term memory.
-" Advanced Video and Signal Based Surveillance (AVSS), 2017 14th IEEE International Conference on. IEEE, 2017
+@inproceedings{sudhakaran2017learning,
+  title={Learning to detect violent videos using convolutional long short-term memory},
+  author={Sudhakaran, Swathikiran and Lanz, Oswald},
+  booktitle={Advanced Video and Signal Based Surveillance (AVSS), 2017 14th IEEE International Conference on},
+  pages={1--6},
+  year={2017},
+  organization={IEEE}
+}
+
 ```
