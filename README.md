@@ -9,9 +9,9 @@ The source code associated with the paper [Learning to Detect Violent Videos usi
 * Python 3.5
 * Pytorch 0.3.1
 #### Running
-python main-run-vr.py --numEpochs 100 \\
+python main-run-vr.py --numEpochs 100 \
 
---lr 1e-4 \\
+--lr 1e-4 \
 
 --stepSize 25 \\
 
