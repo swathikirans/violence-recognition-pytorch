@@ -29,7 +29,8 @@ python main-run-vr.py --numEpochs 100 \
 ```
 
 The images should be arranged in the following way:
-![alt text](https://github.com/swathikirans/violence-recognition-pytorch/dataset_fmt.jpg "")
+![](https://github.com/swathikirans/violence-recognition-pytorch/blob/master/dataset_fmt.jpg)
+
 
 To cite our paper/code:
 
