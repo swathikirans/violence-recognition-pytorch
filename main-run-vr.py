@@ -151,7 +151,7 @@ def main_run(numEpochs, lr, stepSize, decayRate, trainBatchSize, seqLen, memSize
                 if evalMode == 'centerCrop':
                     inputVariable1 = Variable(inputs.permute(1, 0, 2, 3, 4).cuda(), volatile=True)
                 else:
-                    inputVariable1 = Variable(inputs[0].permute(1, 0, 2, 3, 4).cuda(), volatile=True)
+                    inputVariable1 = Variable(inputs[0].cuda(), volatile=True)
                 labelVariable = Variable(targets.cuda(async=True), volatile=True)
                 outputLabel = model(inputVariable1)
                 outputLabel_mean = torch.mean(outputLabel, 0, True)
